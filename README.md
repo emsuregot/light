@@ -93,4 +93,4 @@ home.jpg     artwork shown on the home screen
 
 ## License
 
-Code is MIT licensed, see [LICENSE](LICENSE). The app icon artwork is not covered by this license: it belongs to its original artist. Replace `icon.png`, `icon.ico` and `home.jpg` if you do not have the right to use it.
+Code is MIT licensed, see [LICENSE](LICENSE). The app icon artwork is not covered by this license: it belongs to its original artist.

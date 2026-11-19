@@ -2,8 +2,16 @@
 
 A black, terminal-style music player for your local mp3 files. Pick a folder once, then drive everything from the keyboard. Built with Electron for Windows.
 
-<!-- Add a screenshot: save it as docs/screenshot.png and uncomment the next line -->
+<!-- Add a screenshot: save it as docs/screenshot.png and uncomment the next l<img width="1917" height="1042" alt="image" src="https://github.com/user-attachments/assets/b88f22bf-b140-4600-81b6-bacd77e6c99f" />
+ine -->
 <!-- ![light](docs/screenshot.png) -->
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/fc3e1980-f711-427a-bc73-0991b0d9fe53" />
+
+<img width="1917" height="1042" alt="image" src="https://github.com/user-attachments/assets/b5bf6b5f-f8af-4b66-87b5-5da9bbbe2439" />
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/7e21745e-90e9-4d7c-b1b9-846ef16fed4f" />
+
+
+
 
 ## Download
 

@@ -1,20 +1,35 @@
 # light
 
-A black, terminal-style music player for your local mp3 files. Pick a folder once, then drive everything from the keyboard. Built with Electron for Windows.
+A black, terminal-style music player for your local MP3 files. Pick a folder once, then drive everything from the keyboard. Built with Electron for Windows.
+
+Home:
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/12ef1307-910f-42b6-988a-018a39962377" />
+
+Visualisers:
+<img width="1168" height="655" alt="image" src="https://github.com/user-attachments/assets/589d9383-5b5f-4d6f-b245-271d3685b4d1" />
+<img width="1171" height="651" alt="image" src="https://github.com/user-attachments/assets/87e54335-3d26-4a41-a896-859283213497" />
+and 8 more....
+
+Stats:
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/8d033c47-170c-4b08-beb2-578e076531fa" />
+
+Player:
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/dc074b91-a20c-440c-bc67-a3da4a17c501" />
+
 
 <!-- Add a screenshot: save it as docs/screenshot.png and uncomment the next line -->
 <!-- ![light](docs/screenshot.png) -->
 
 ## Download
 
-Get the Windows installer from the [latest release](https://github.com/emsuregot/light/releases/latest): download `Light_Setup_1_1_0.exe` and run it.
+Get the Windows installer from the [latest release](https://github.com/emsuregot/light/releases/latest): download `Light.Setup.1.2.0.exe` and run it.
 
 Windows may show a "Windows protected your PC" screen because the installer is not code-signed. Click **More info**, then **Run anyway**.
 
-SHA-256 of `Light_Setup_1_1_0.exe`:
+SHA-256 of `Light.Setup.1.2.0.exe`:
 
 ```
-0b8c2ac3754126b5dfd367b6750c29304a62fe29cc2aab814e64b78e9c7ddeb0
+sha256:66b4c1d6b613a6a3f581a51136d56232d4b1d89276ad7b1fd31c25ee106f450f
 ```
 
 ## Features
@@ -46,13 +61,15 @@ Build a Windows installer (output goes to `dist/`):
 npm run dist
 ```
 
-Pushing a tag such as `v1.1.0` also builds the installer on GitHub Actions and attaches it to a release.
 
 ## First launch
 
 Press **Enter** on the home screen, then **O** and choose the folder with your music. It is remembered next time.
 
 ## Download audio from a link (optional)
+
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/ff791751-6d79-4803-a906-216477ec770f" />
+
 
 Press **d**, paste a link with `Ctrl+V`, press **Enter**. Light saves an mp3 (best quality) with tags and cover art into your music folder and adds it to the playlist.
 
@@ -114,4 +131,4 @@ home.jpg     artwork shown on the home screen
 
 ## License
 
-Code is MIT licensed, see [LICENSE](LICENSE). The app icon artwork is not covered by this license: it belongs to its original artist. Replace `icon.png`, `icon.ico` and `home.jpg` if you do not have the right to use it.
+Code is MIT licensed, see [LICENSE](LICENSE). The app icon artwork is not covered by this license: it belongs to its original artist.

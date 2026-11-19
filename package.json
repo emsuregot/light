@@ -1,0 +1,50 @@
+{
+  "name": "light",
+  "productName": "Light",
+  "version": "1.2.0",
+  "description": "light - black terminal-style local music player with visualizers",
+  "private": true,
+  "license": "MIT",
+  "author": "emsuregot",
+  "keywords": [
+    "music-player",
+    "electron",
+    "terminal",
+    "visualizer",
+    "mp3",
+    "windows"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "dependencies": {
+    "music-metadata": "^7.14.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.light.player",
+    "productName": "Light",
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "home.jpg",
+      "icon.png",
+      "icon.ico",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsuregot/light.git"
+  }
+}
